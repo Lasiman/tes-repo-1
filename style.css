@@ -1,4 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
 body {
-    color:aqua;
-    font-family: arial;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5E1EF;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    padding: 16px 16px 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    gap: 24px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Outfit;
+    font-weight: bold;
+    color: #1F314F;
+    line-height: 120%;
+    font-size: 22px;
+    letter-spacing: 0;
+}
+
+p {
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    font-weight: normal;
+    color: #68778D;
 }
